@@ -12,8 +12,7 @@ function Countries() {
 
   const { isError, error, isLoading, data, isFetching } = useQuery(
     COUNTRIES_KEY,
-    getDataFromFirebase,
-    { staleTime: 10000 }
+    getDataFromFirebase
   );
 
   if (isLoading) {
@@ -27,8 +26,6 @@ function Countries() {
       </>
     );
   }
-
- 
 
   return (
     <>
