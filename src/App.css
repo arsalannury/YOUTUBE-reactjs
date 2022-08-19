@@ -1,7 +1,9 @@
-body {
+body,#root {
     display: flex;
+    font-family: sans-serif;
     align-items: center;
     justify-content: center;
-    width: 90vw;
-    height: 95vh;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
