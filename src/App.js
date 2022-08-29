@@ -2,6 +2,7 @@ import "./App.css";
 import MainPage from "./components/MainPage/Main.Page";
 import { QueryClientProvider, QueryClient } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
+import {Switch,Route} from "react-router-dom"
 
 const clientProp = new QueryClient();
 
