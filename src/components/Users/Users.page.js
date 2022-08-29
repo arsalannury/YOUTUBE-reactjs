@@ -4,8 +4,9 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 
-const UsersPage = ({ firstname, lastname, avatar, email }) => {
+const UsersPage = ({ firstname, lastname, avatar, email, id }) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -24,7 +25,9 @@ const UsersPage = ({ firstname, lastname, avatar, email }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">More</Button>
+        <Button size="small">
+          <Link to={`/user/${id}`}>More</Link>
+        </Button>
       </CardActions>
     </Card>
   );
