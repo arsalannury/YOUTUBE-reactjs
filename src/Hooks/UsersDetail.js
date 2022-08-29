@@ -2,7 +2,7 @@ import { useQuery } from "react-query";
 import { UsersInstance } from "../Axios/UsersInstance";
 
 const usersGetter = () => {
-  return UsersInstance.get("users?page=2");
+  return UsersInstance.get("users");
 };
 
 const useUsersDetail = (onSuccess, onError) => {
