@@ -10,7 +10,10 @@ function App() {
   return (
     <>
       <QueryClientProvider client={clientProp}>
-        <MainPage />
+      <Switch>
+        <Route path={"/"} component={""} exact />
+        <Route path={"user/:id"} />
+      </Switch>
         <ReactQueryDevtools initialIsOpen={false} position={"bottom-left"} />
       </QueryClientProvider>
     </>
