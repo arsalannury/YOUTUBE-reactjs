@@ -1,4 +1,5 @@
-import { Grid } from "@mui/material";
+import { Box, Button, Grid } from "@mui/material";
+import { Link } from "react-router-dom";
 import useUsersDetail from "../../Hooks/UsersDetail";
 import UsersPage from "../Users/Users.page";
 
@@ -15,6 +16,7 @@ const MainPage = () => {
 
   console.log(data.data);
   return (
+   <>
     <Grid
       container
       alignItems={"center"}
@@ -33,6 +35,13 @@ const MainPage = () => {
         />
       ))}
     </Grid>
+    <Box>
+      <Button variant="outlined">
+        <Link to={"/group-one"}>group one</Link>
+      </Button>
+      <Button variant="outlined">group two</Button>
+    </Box>
+   </>
   );
 };
 
