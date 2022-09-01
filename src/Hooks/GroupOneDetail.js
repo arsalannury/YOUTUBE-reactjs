@@ -9,8 +9,8 @@ export const useGroupOneDatas = (groupOneIds) => {
   const resultsQueries =  useQueries(
     groupOneIds.map((id) => {
       return {
-        key: ["group-one", id],
-        fetcherFunction: fetchGroupOneDatas(id),
+        queryKey: ["group-one", id],
+        queryFn: () => fetchGroupOneDatas(id),
       };
     })
   );
