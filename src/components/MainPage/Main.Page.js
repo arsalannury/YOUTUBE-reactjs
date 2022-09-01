@@ -39,7 +39,9 @@ const MainPage = () => {
       <Button variant="outlined">
         <Link to={"/group-one"}>group one</Link>
       </Button>
-      <Button variant="outlined">group two</Button>
+      <Button variant="outlined">
+        <Link to={'/group-two'}>group two</Link>
+      </Button>
     </Box>
    </>
   );
