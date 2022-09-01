@@ -42,6 +42,9 @@ const MainPage = () => {
       <Button variant="outlined">
         <Link to={'/group-two'}>group two</Link>
       </Button>
+      <Button variant="outlined">
+        <Link to={'/dependent'}>dependent</Link>
+      </Button>
     </Box>
    </>
   );

@@ -6,6 +6,7 @@ import { Switch, Route } from "react-router-dom";
 import Userpage from "./components/User/User.page";
 import GroupOnePage from "./components/GroupOne/GroupOne.page";
 import GroupTwoPage from "./components/GroupTwo/GroupTwo.page";
+import DependentPage from "./components/DependentQueries/Dependent.page";
 
 const clientProp = new QueryClient();
 
@@ -18,6 +19,7 @@ function App() {
           <Route path={"/user/:id"} component={Userpage} />
           <Route path={'/group-one'} render={(props) => <GroupOnePage {...props} groupOneIds={[1,2,3]} />} />
           <Route path={'/group-two'} render={(props) => <GroupTwoPage {...props} groupTwoIds={[4,5,6]} /> }  />
+          <Route path={'/dependent'} component={DependentPage} />
         </Switch>
         <ReactQueryDevtools initialIsOpen={false} position={"bottom-left"} />
       </QueryClientProvider>
