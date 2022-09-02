@@ -1,0 +1,8 @@
+{
+  "actionGames": [
+    { "name": "Call of duty", "age": "+14" },
+    { "name": "Medal of honor", "age": "+16" },
+    { "name": "Battelfield", "age": "+14" },
+    { "name": "Sniper", "age": "+11" }
+  ]
+}
