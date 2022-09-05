@@ -7,6 +7,8 @@ import Userpage from "./components/User/User.page";
 import GroupOnePage from "./components/GroupOne/GroupOne.page";
 import GroupTwoPage from "./components/GroupTwo/GroupTwo.page";
 import DependentPage from "./components/DependentQueries/Dependent.page";
+import GamesPage from "./components/Games/Games.page";
+import InitialQueryDataPage from "./components/InitialQueryData/InitialQueryData.page";
 
 const clientProp = new QueryClient();
 
@@ -20,7 +22,9 @@ function App() {
           <Route path={'/group-one'} render={(props) => <GroupOnePage {...props} groupOneIds={[1,2,3]} />} />
           <Route path={'/group-two'} render={(props) => <GroupTwoPage {...props} groupTwoIds={[4,5,6]} /> }  />
           <Route path={'/dependent'} component={DependentPage} />
-        </Switch>
+          <Route path={"/games/:id"} component={InitialQueryDataPage} />
+          <Route path={"/games"} component={GamesPage} />
+         </Switch>
         <ReactQueryDevtools initialIsOpen={false} position={"bottom-left"} />
       </QueryClientProvider>
     </>

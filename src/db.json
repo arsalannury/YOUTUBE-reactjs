@@ -1,8 +1,32 @@
 {
   "actionGames": [
-    { "name": "Call of duty", "age": "+14" },
-    { "name": "Medal of honor", "age": "+16" },
-    { "name": "Battelfield", "age": "+14" },
-    { "name": "Sniper", "age": "+11" }
+    {
+      "name": "Call of duty",
+      "age": "+14",
+      "company": "activison",
+      "numberOfTeam": 120,
+      "id": 1
+    },
+    {
+      "name": "Medal of honor",
+      "age": "+16",
+      "company": "activison",
+      "numberOfTeam": 890,
+      "id": 2
+    },
+    {
+      "name": "Battelfield",
+      "age": "+14",
+      "company": "activison",
+      "numberOfTeam": 135,
+      "id": 3
+    },
+    {
+      "name": "Sniper",
+      "age": "+11",
+      "company": "activison",
+      "numberOfTeam": 612,
+      "id": 4
+    }
   ]
 }

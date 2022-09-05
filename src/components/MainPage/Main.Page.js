@@ -45,6 +45,9 @@ const MainPage = () => {
       <Button variant="outlined">
         <Link to={'/dependent'}>dependent</Link>
       </Button>
+      <Button variant="outlined">
+        <Link to={'/games'}>games</Link>
+      </Button>
     </Box>
    </>
   );
