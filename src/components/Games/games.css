@@ -1,13 +1,18 @@
-body {
+.main-game-page {
   transition: all 1s ease-in-out;
-  animation: load 1s cubic-bezier(0.075, 0.82, 0.165, 1) 1 alternate;
+  animation: load 1s cubic-bezier(.86,.55,0,1) 1 alternate;
+  animation-play-state:paused;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
 }
 
 @keyframes load {
     from {
-        box-shadow: inset 0 0 40px #000;
+        opacity: 0;
     }
     to {
-        box-shadow: inset 0 0 0 #000;
+        opacity: 1;
     }
 }
