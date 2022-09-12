@@ -17,6 +17,19 @@ const HomePage = () => {
           enjoy games world
         </Link>
       </Button>
+      <Button
+        variant={"contained"}
+        sx={{
+          backgroundColor: "#7209b7",
+          "&:hover": {
+            backgroundColor: "#3c096c",
+          },
+        }}
+      >
+        <Link style={{ all: "unset" }} to={"/low-score"}>
+          low score games
+        </Link>
+      </Button>
     </>
   );
 };
