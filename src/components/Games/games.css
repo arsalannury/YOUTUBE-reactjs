@@ -1,7 +1,7 @@
 .main-game-page {
   transition: all 1s ease-in-out;
-  animation: load 1s cubic-bezier(.86,.55,0,1) 1 alternate;
-  animation-play-state:paused;
+  animation: load 1s cubic-bezier(0.86, 0.55, 0, 1) 1 alternate;
+  animation-play-state: paused;
   width: 100%;
   height: 100%;
   display: grid;
@@ -10,33 +10,35 @@
 }
 
 .background-move {
-    position: absolute;
-    top: 0;
-    top: 0;
-    bottom: 0;
-    left: 100%;
-    width: 100%;
-    height: 100%;
-    background-color: orange;
-    animation: move 1s cubic-bezier(.86,.55,0,1) 1 forwards;
+  position: absolute;
+  top: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  animation: move 1s cubic-bezier(0.86, 0.55, 0, 1) 1 forwards;
 }
 
 @keyframes load {
-    from {
-        opacity: 0;
-        
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @keyframes move {
-    from {
-        left: 100%;
-        opacity: 1;
-    }
-    to {
-        left: 0;
-        opacity: .8;
-    }
+  0% {
+    left: 100%;
+    opacity: 1;
+  }
+  100% {
+    left: 0;
+    opacity: 0;
+  }
+
+  
 }
