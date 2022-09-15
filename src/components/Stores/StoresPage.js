@@ -10,6 +10,7 @@ const StoresPage = ({country,city,zone}) => {
     <Card sx={{ maxWidth: 345,margin:"45px" }}>
       <CardActionArea>
         <CardMedia
+          sx={{objectFit:"contain"}}
           component="img" 
           height="140"
           image="image-game.jpg"

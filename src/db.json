@@ -86,5 +86,11 @@
       "city": "Dehli",
       "zone": "Mataya"
     }
-  ]
+  ],
+  "aboutUs": {
+    "created":"2022",
+    "founder":"Arsalan Nury",
+    "address":"Velenjak",
+    "telephone":"09124873594"
+  }
 }
