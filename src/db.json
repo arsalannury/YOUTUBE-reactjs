@@ -1,60 +1,58 @@
 {
-  "actionGames": [
+  "games": [
     {
-      "name": "Call of duty",
-      "age": "+14",
-      "company": "activison",
-      "numberOfTeam": 120,
-      "id": 1
+      "title": "Call of duty",
+      "id": 0,
+      "players": "129M",
+      "firstSeason": "2001"
     },
     {
-      "name": "Medal of honor",
-      "age": "+16",
-      "company": "activison",
-      "numberOfTeam": 890,
-      "id": 2
+      "title": "God of war",
+      "id": 1,
+      "players": "125M",
+      "firstSeason": "2004"
     },
     {
-      "name": "Battelfield",
-      "age": "+14",
-      "company": "activison",
-      "numberOfTeam": 135,
-      "id": 3
+      "title": "General",
+      "id": 2,
+      "players": "11M",
+      "firstSeason": "2002"
     },
     {
-      "name": "Sniper",
-      "age": "+11",
-      "company": "activison",
-      "numberOfTeam": 612,
-      "id": 4
+      "title": "Delta force",
+      "id": 3,
+      "players": "9M",
+      "firstSeason": "1999"
     },
     {
-      "name": "Assasins",
-      "age": "+15",
-      "company": "ubisoft",
-      "numberOfTeam": 1200,
-      "id": 5
+      "title": "Gta",
+      "id": 4,
+      "players": "529M",
+      "firstSeason": "2005"
     },
     {
-      "name": "God of war",
-      "age": "+15",
-      "company": "ubisoft",
-      "numberOfTeam": 578,
-      "id": 6
+      "title": "Medal of honor",
+      "id": 5,
+      "players": "29M",
+      "firstSeason": "2001"
     },
     {
-      "name": "God of war ||",
-      "age": "+15",
-      "company": "ubisoft",
-      "numberOfTeam": 578,
-      "id": 7
+      "title": "Strong hold",
+      "id": 6,
+      "players": "119M",
+      "firstSeason": "2002"
     },
     {
-      "name": "God of war |||",
-      "age": "+15",
-      "company": "ubisoft",
-      "numberOfTeam": 578,
-      "id": 8
+      "title": "Age of empires",
+      "id": 7,
+      "players": "123M",
+      "firstSeason": "2001"
+    },
+    {
+      "title": "Global",
+      "id": 8,
+      "players": "2M",
+      "firstSeason": "1998"
     }
   ]
 }
