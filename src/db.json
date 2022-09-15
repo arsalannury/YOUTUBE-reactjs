@@ -54,5 +54,37 @@
       "players": "2M",
       "firstSeason": "1998"
     }
+  ],
+  "stores": [
+    {
+      "country": "Iran",
+      "city": "Tehran",
+      "zone": "Saeadat abad"
+    },
+    {
+      "country": "Canada",
+      "city": "Torento",
+      "zone": "Jack marin"
+    },
+    {
+      "country": "United states",
+      "city": "Misissipi",
+      "zone": "Abraham"
+    },
+    {
+      "country": "Coba",
+      "city": "Caras",
+      "zone": "Cobols"
+    },
+    {
+      "country": "Tajikestan",
+      "city": "Samarghand",
+      "zone": "ferdosiye"
+    },
+    {
+      "country": "India",
+      "city": "Dehli",
+      "zone": "Mataya"
+    }
   ]
 }
