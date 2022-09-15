@@ -30,6 +30,7 @@ const GamesPage = () => {
           <Fragment key={game.id}>
             <GamePage
             key={game.id}
+            id={game.id}
             title={game.title}
             players={game.players}
             firstSeason={game.firstSeason}

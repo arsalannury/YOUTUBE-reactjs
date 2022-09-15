@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import GamesPage from "./components/Games/GamesPage";
 import AboutUsPage from "./components/AboutUs/AboutUsPage";
+import DetailGamePage from "./components/DetailGame/DetailGamePage";
 
 
 const queryClientProp = new QueryClient();
@@ -17,6 +18,7 @@ function App() {
         <Route path={'/'} exact component={HomePage} />
         <Route path={"/games"} component={GamesPage} />
         <Route path={"/about-us"} component={AboutUsPage} />
+        <Route path={"/game/:id"} component={DetailGamePage} />
         </Switch>
         <ReactQueryDevtools initialIsOpen={false} position={"bottom-left"} />
       </QueryClientProvider>
