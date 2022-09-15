@@ -40,6 +40,11 @@ const HeaderPage = () => {
               About us
             </Link>
           </LiTypography>
+          <LiTypography>
+            <Link style={{ all: "unset" }} to={"/best-games"}>
+              Best games
+            </Link>
+          </LiTypography>
         </Box>
         <Box>
           <TextField variant="standard" label="Search" />
