@@ -8,9 +8,9 @@ const Titles = () => {
   return (
     <>
       <Box>
-      <Button></Button>
+      <Button onClick={() => setOpen(!open)}>List</Button>
       <Box>
-          <CustomList />
+          <CustomList open={open} />
       </Box>
     </Box>
     </>

@@ -28,7 +28,7 @@ function RenderRow(props) {
   );
 }
 
-const CustomList = () => {
+const CustomList = ({open}) => {
   return (
     <>
       <Box
@@ -37,6 +37,7 @@ const CustomList = () => {
           height: 400,
           maxWidth: 360,
           bgcolor: "background.paper",
+          display:open ? 'unset' : 'none'
         }}
       >
         <FixedSizeList
