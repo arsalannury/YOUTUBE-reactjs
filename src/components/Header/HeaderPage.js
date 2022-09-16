@@ -58,6 +58,11 @@ const HeaderPage = () => {
         }}
       >
         <Box component={"ul"} sx={{ display: "flex", alignItems: "center" }}>
+        <LiTypography>
+            <Link style={{ all: "unset" }} to={"/add-game"}>
+              Add game
+            </Link>
+          </LiTypography>
           <LiTypography>
             <Link style={{ all: "unset" }} to={"/games"}>
               Games

@@ -7,6 +7,7 @@ import GamesPage from "./components/Games/GamesPage";
 import AboutUsPage from "./components/AboutUs/AboutUsPage";
 import DetailGamePage from "./components/DetailGame/DetailGamePage";
 import BestGamesPage from "./components/BestGames/BestGamesPage";
+import AddGamePage from "./components/AddGame/AddGamePage";
 
 
 const queryClientProp = new QueryClient();
@@ -21,9 +22,7 @@ function App() {
         <Route path={"/about-us"} component={AboutUsPage} />
         <Route path={"/game/:id"} component={DetailGamePage} />
         <Route path={"/best-games"} render={(props) => <BestGamesPage {...props} ids={[0,1,2 ]} /> } />
-        {/* <Route path={'/best-games'}>
-            <BestGamesPage ids={[0,1,2]} />
-        </Route> */}
+        <Route path={"/add-game"} component={AddGamePage} />
         </Switch>
         <ReactQueryDevtools initialIsOpen={false} position={"bottom-left"} />
       </QueryClientProvider>

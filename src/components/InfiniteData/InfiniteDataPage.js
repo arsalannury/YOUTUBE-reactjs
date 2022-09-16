@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { useInfiniteData } from "../../hooks/InfiniteData";
 
 const InfiniteDataPage = () => {
-  const { data, hasNextPage, fetchNextPage, isLoading, isError, error } =
+  const { data, hasNextPage, fetchNextPage, isLoading, isError, error,isFetching } =
     useInfiniteData();
 
   if (isError) {
@@ -49,7 +49,7 @@ const InfiniteDataPage = () => {
         }}
       >
         <Button style={{ textAlign: "center" }} onClick={fetchNextPage}>
-          {isLoading ? <CircularProgress /> : "LoadMore"} 
+          {isFetching ? <CircularProgress /> : "LoadMore"} 
         </Button>
       </div>}
     </>
