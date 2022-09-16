@@ -19,7 +19,7 @@ const AddGamePage = () => {
 
   const disabledAddBtn = newGame.firstSeason.length > 1 && newGame.title.length > 1 & newGame.players.length > 1;
 
-  const { mutate,isSuccess,isError,isLoading } = useMutationPostData();
+  const { mutateAsync,isSuccess,isError,isLoading } = useMutationPostData();
 
   const handleChangeInputs = ({ currentTarget: input }) => {
     console.log(input.value);
@@ -28,8 +28,9 @@ const AddGamePage = () => {
     addNewGame(shallowState);
   };
 
-  const handleAddData = () => {
-    mutate(newGame);
+  const handleAddData = async() => {
+   const data = await mutateAsync(newGame);
+   console.log(data)
     addNewGame({
         title: "",
         players: "",
