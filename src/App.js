@@ -20,7 +20,7 @@ function App() {
         <Route path={"/games"} component={GamesPage} />
         <Route path={"/about-us"} component={AboutUsPage} />
         <Route path={"/game/:id"} component={DetailGamePage} />
-        <Route path={"/best-games"} render={(props) => <BestGamesPage {...props} ids={[0,1,2]} /> } />
+        <Route path={"/best-games"} render={(props) => <BestGamesPage {...props} ids={[0,1,2 ]} /> } />
         {/* <Route path={'/best-games'}>
             <BestGamesPage ids={[0,1,2]} />
         </Route> */}

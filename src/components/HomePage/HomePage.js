@@ -6,6 +6,7 @@ import TopBannerPage from "../Banneres/TopBannerPage";
 import { useStores } from "../../hooks/Stores";
 import StoresPage from "../Stores/StoresPage";
 import PaginatedPage from "../Paginated/PaginatedPage";
+import InfiniteDataPage from "../InfiniteData/InfiniteDataPage";
 
 const HomePage = (props) => {
   const { isLoading, isError, data, isFetching } = useStores();
@@ -53,6 +54,7 @@ const HomePage = (props) => {
           ))}
         </Box>
         <PaginatedPage />
+        <InfiniteDataPage />
       </Container>
     </>
   );

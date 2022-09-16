@@ -167,5 +167,37 @@
       "name": "melika",
       "lastbuy": "8 July"
     }
+  ],
+  "images": [
+    {
+      "src": "https://www.gamersglobal.de/sites/gamersglobal.de/files/userupload/user1891/psone.jpg",
+      "title": "ps 1",
+      "id": 1
+    },
+    {
+      "src": "https://m.media-amazon.com/images/I/61pETE6v4vL._SL1500_.jpg",
+      "title": "ps 2",
+      "id": 2
+    },
+    {
+      "src": "https://s.yimg.com/uu/api/res/1.2/psJxo3qvBi2OgDBkALmZXQ--~B/aD0zMDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://www.blogcdn.com/www.engadget.com/media/2009/08/ps3-slim-review-2009-08-27_04-53-42-rm-eng600.jpg",
+      "title": "ps 3",
+      "id": 3
+    },
+    {
+      "src": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-overview-console-02-en-04sep18?$native--t$",
+      "title": "ps 4",
+      "id": 4
+    },
+    {
+      "src": "https://m.media-amazon.com/images/I/71GrRdRbV3L._AC_SL1500_.jpg",
+      "title": "ps 4pro",
+      "id": 5
+    },
+    {
+      "src": "https://multimedia.bbycastatic.ca/multimedia/products/1500x1500/156/15689/15689335_2.jpg",
+      "title": "ps 5",
+      "id": 6
+    }
   ]
 }
