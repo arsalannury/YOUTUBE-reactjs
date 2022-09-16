@@ -5,6 +5,7 @@ import { Box, Container, LinearProgress } from "@mui/material";
 import TopBannerPage from "../Banneres/TopBannerPage";
 import { useStores } from "../../hooks/Stores";
 import StoresPage from "../Stores/StoresPage";
+import PaginatedPage from "../Paginated/PaginatedPage";
 
 const HomePage = (props) => {
   const { isLoading, isError, data, isFetching } = useStores();
@@ -51,6 +52,7 @@ const HomePage = (props) => {
             </Fragment>
           ))}
         </Box>
+        <PaginatedPage />
       </Container>
     </>
   );
