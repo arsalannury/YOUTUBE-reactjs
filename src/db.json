@@ -88,29 +88,47 @@
     }
   ],
   "aboutUs": {
-    "created":"2022",
-    "founder":"Arsalan Nury",
-    "address":"Velenjak",
-    "telephone":"09124873594"
+    "created": "2022",
+    "founder": "Arsalan Nury",
+    "address": "Velenjak",
+    "telephone": "09124873594"
   },
   "best-games": [
     {
-      "id":0,
+      "id": 0,
       "title": "Gta san adreas",
       "players": "890M",
       "firstSeason": "2003"
     },
     {
-      "id":1,
+      "id": 1,
       "title": "Call of duty modern warfare 2",
       "players": "910M",
       "firstSeason": "2009"
     },
     {
-      "id":2,
+      "id": 2,
       "title": "God of war ||",
       "players": "1B",
       "firstSeason": "2007"
+    }
+  ],
+  "author": {
+    "name": "arsalan",
+    "idCard": 12
+  },
+  "admindata": [
+    {
+      "name": "niki",
+      "age": "15",
+      "permmition": "root",
+      "id": 12
+    },
+    {
+      "name": "mohammad",
+      "age": "25",
+      "permmition": "normal user",
+      "id": 13
     }
   ]
 }
