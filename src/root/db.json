@@ -1,0 +1,220 @@
+{
+  "suni": [
+    {
+      "title": "ISIS",
+      "born": "2013",
+      "death": "2018",
+      "numbers": "80000",
+      "geography": ["Libiya", "Syria", "Afghanistan", "Jordan"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/28/AQMI_Flag_asymmetric.svg"
+    },
+    {
+      "title": "The Syrian Democratic Forces",
+      "born": "2015",
+      "death": "--",
+      "numbers": "60000",
+      "geography": ["Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Syrian_Democratic_Forces.svg"
+    },
+
+    {
+      "title": "Free Syrian Army",
+      "born": "2012",
+      "death": "---",
+      "numbers": "35000",
+      "geography": ["Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/0/05/Free_syrian_army_coat_of_arms.svg"
+    },
+
+    {
+      "title": "Peshmerga",
+      "born": "1945",
+      "death": "---",
+      "numbers": "200000",
+      "geography": ["Kordestan"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pjak.png?uselang=fa"
+    },
+    {
+      "title": "Al-Qaeda",
+      "born": "1988",
+      "death": "---",
+      "numbers": "200000",
+      "geography": [
+        "Yemen",
+        "Iraq",
+        "India",
+        "Afghanistan",
+        "Pakestan",
+        "Africa"
+      ],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Jihad.svg"
+    },
+
+    {
+      "title": "Ahrar-o-sham",
+      "born": "2011",
+      "death": "---",
+      "numbers": "---",
+      "geography": ["Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Logo_of_Ahrar_al-Sham.svg"
+    },
+    {
+      "title": "Hamas",
+      "born": "1987",
+      "death": "---",
+      "numbers": "4000",
+      "geography": ["Ghaza"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/0/0d/Hamas_logo.svg"
+    }
+  ],
+  "shiya": [
+    {
+      "title": "Hezbollah",
+      "born": "1980",
+      "death": "---",
+      "numbers": "50000",
+      "geography": ["Leobnan", "Syria", "Ghaza", "Jordan", "Iran"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/7/71/Hezbollah_political_militia_logo.png"
+    },
+    {
+      "title": "Asa'ib Ahl al-Haq",
+      "born": "2014",
+      "death": "2017",
+      "numbers": "1000-3000",
+      "geography": ["Syria", "Iraq"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/5/56/Asa%27ib_Ahl_Al-Haq_flag.png"
+    },
+    {
+      "title": "Kata'ib Hezbollah",
+      "born": "2003",
+      "death": "---",
+      "numbers": "1000",
+      "geography": ["Iraq", "Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/b/bd/Kata%27ib_Hezbollah_flag.svg"
+    },
+    {
+      "title": "Harakat Hezbollah al-Nujaba",
+      "born": "2004",
+      "death": "---",
+      "numbers": "10000",
+      "geography": ["Iraq", "Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/59/%D9%BE%D8%B1%DA%86%D9%85_%D8%AC%D9%86%D8%A8%D8%B4_%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA_%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C_%D9%86%D8%AC%D8%A8%D8%A7%D8%A1.jpg?uselang=fa"
+    },
+    {
+      "title": "Lashkar-e-Taiba",
+      "born": "1990",
+      "death": "---",
+      "numbers": "1000",
+      "geography": ["Pakestan", "India"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Flag_of_Lashkar-e-Taiba.svg"
+    }
+  ],
+  "all": [
+    {
+      "title": "Hezbollah",
+      "born": "1980",
+      "death": "---",
+      "numbers": "50000",
+      "geography": ["Leobnan", "Syria", "Ghaza", "Jordan", "Iran"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/7/71/Hezbollah_political_militia_logo.png"
+    },
+    {
+      "title": "Asa'ib Ahl al-Haq",
+      "born": "2014",
+      "death": "2017",
+      "numbers": "1000-3000",
+      "geography": ["Syria", "Iraq"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/5/56/Asa%27ib_Ahl_Al-Haq_flag.png"
+    },
+    {
+      "title": "Kata'ib Hezbollah",
+      "born": "2003",
+      "death": "---",
+      "numbers": "1000",
+      "geography": ["Iraq", "Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/b/bd/Kata%27ib_Hezbollah_flag.svg"
+    },
+    {
+      "title": "Harakat Hezbollah al-Nujaba",
+      "born": "2004",
+      "death": "---",
+      "numbers": "10000",
+      "geography": ["Iraq", "Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/59/%D9%BE%D8%B1%DA%86%D9%85_%D8%AC%D9%86%D8%A8%D8%B4_%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA_%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C_%D9%86%D8%AC%D8%A8%D8%A7%D8%A1.jpg?uselang=fa"
+    },
+    {
+      "title": "Lashkar-e-Taiba",
+      "born": "1990",
+      "death": "---",
+      "numbers": "1000",
+      "geography": ["Pakestan", "India"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Flag_of_Lashkar-e-Taiba.svg"
+    },
+    {
+      "title": "ISIS",
+      "born": "2013",
+      "death": "2018",
+      "numbers": "80000",
+      "geography": ["Libiya", "Syria", "Afghanistan", "Jordan"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/28/AQMI_Flag_asymmetric.svg"
+    },
+    {
+      "title": "The Syrian Democratic Forces",
+      "born": "2015",
+      "death": "--",
+      "numbers": "60000",
+      "geography": ["Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Syrian_Democratic_Forces.svg"
+    },
+
+    {
+      "title": "Free Syrian Army",
+      "born": "2012",
+      "death": "---",
+      "numbers": "35000",
+      "geography": ["Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/0/05/Free_syrian_army_coat_of_arms.svg"
+    },
+
+    {
+      "title": "Peshmerga",
+      "born": "1945",
+      "death": "---",
+      "numbers": "200000",
+      "geography": ["Kordestan"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pjak.png?uselang=fa"
+    },
+    {
+      "title": "Al-Qaeda",
+      "born": "1988",
+      "death": "---",
+      "numbers": "200000",
+      "geography": [
+        "Yemen",
+        "Iraq",
+        "India",
+        "Afghanistan",
+        "Pakestan",
+        "Africa"
+      ],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Jihad.svg"
+    },
+
+    {
+      "title": "Ahrar-o-sham",
+      "born": "2011",
+      "death": "---",
+      "numbers": "---",
+      "geography": ["Syria"],
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Logo_of_Ahrar_al-Sham.svg"
+    },
+    {
+      "title": "Hamas",
+      "born": "1987",
+      "death": "---",
+      "numbers": "4000",
+      "geography": ["Ghaza"],
+      "flag": "https://upload.wikimedia.org/wikipedia/fa/0/0d/Hamas_logo.svg"
+    }
+  ]
+}
