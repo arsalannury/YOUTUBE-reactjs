@@ -40,7 +40,7 @@ const Wiki = () => {
               {data.title}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-             {data.born} - {data.death}
+             {data.born} / {data.death}
             </Typography>
           </CardContent>
           <CardActions>
